@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:id="@+id/text_c"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_c"
+        android:text="Show Option"
+        android:layout_below="@+id/text_c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp" />
+    <android.support.v7.widget.CardView
+        android:id="@+id/bottom_frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="100dp"
+        android:visibility="gone"
+       >
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

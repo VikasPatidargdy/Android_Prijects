@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "104205803926",
+    "firebase_url": "https://fcmnotification-7af3f.firebaseio.com",
+    "project_id": "fcmnotification-7af3f",
+    "storage_bucket": "fcmnotification-7af3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104205803926:android:99cff3b92e7a886c",
+        "android_client_info": {
+          "package_name": "com.example.maalgaadi.fcmnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104205803926-mfi7c6af49h6t9oap2vfpefh1vp193cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maalgaadi.fcmnotification",
+            "certificate_hash": "bcb5224c40b1b3ee3cc1b99f010e3943179dc82e"
+          }
+        },
+        {
+          "client_id": "104205803926-30egrji7l5f4trclel30ud6a4rlpntqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtcDie6zk7Xij2IZRCfBQ23cJb_71CNxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104205803926-30egrji7l5f4trclel30ud6a4rlpntqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

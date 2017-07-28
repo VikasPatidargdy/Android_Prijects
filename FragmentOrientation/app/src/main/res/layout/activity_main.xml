@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maalgaadi.fragmentorientation.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fram_potr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_land"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_weight="1"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignLeft="@+id/frame2">
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_weight="1"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+        </FrameLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

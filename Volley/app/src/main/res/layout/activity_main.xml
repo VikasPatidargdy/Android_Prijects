@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.new1223.volley.MainActivity">
+<EditText
+    android:id="@+id/edit_text_response"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <Button
+        android:id="@+id/button_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:text="GET BUTTON"/>
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="POST BUTTON"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
